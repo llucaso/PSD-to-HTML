@@ -89,42 +89,42 @@
   margin-left: 91.66%; }
 
 .jumbotron {
-  background-image: url("new-images/jumbotron-image.jpg");
-  height: 100vh;
+  position: relative;
+  background-image: url("/new-images/Layer 8.jpg");
   background-size: cover;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  position: relative;
   margin: 0px; }
   .jumbotron h1 {
+    position: absolute;
     text-align: center;
     font-family: 'lato';
     color: white;
     font-size: 35px;
     text-transform: uppercase;
     line-height: 1.2;
-    position: absolute;
     letter-spacing: 8px;
     top: 48%; }
   .jumbotron h2 {
+    position: absolute;
     text-align: center;
     font-family: 'lato';
     color: white;
-    position: absolute;
-    text-transform: uppercase;
-    line-height: 1;
-    font-size: 10px;
-    line-height: 1.2;
-    letter-spacing: 3px;
     display: flex;
     align-self: flex-end;
-    top: 65%; }
+    top: 65%;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 3px; }
 
 .logo {
   position: absolute;
-  z-index: 100;
   display: flex;
   justify-content: center;
+  z-index: 100;
   margin-top: 15%; }
 
 .logo2 {
@@ -133,22 +133,78 @@
   align-self: flex-end; }
 
 .titleAbout {
-  padding: 20px 20px;
+  padding: 5px 50px;
   position: absolute;
   background-color: white;
-  z-index: 100; }
+  z-index: 100;
+  font-family: 'lato';
+  font-size: 35px;
+  color: #3c3c3c;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 7px;
+  margin-top: 20px; }
 
 .aboutUsContainer {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  color: #3c3c3c;
+  margin-top: 200px; }
 
 .aboutUs {
   display: flex;
+  position: relative;
   justify-content: center;
   text-align: center;
-  position: absolute;
   border: 2px solid;
-  padding: 3% 9%;
-  margin-top: 50px; }
+  padding: 2% 4%;
+  margin-top: 50px;
+  font-family: 'lato';
+  color: #3c3c3c; }
+  .aboutUs p {
+    margin-top: 25px;
+    color: #3c3c3c;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px; }
+
+.serviceContainer {
+  background-image: url("/new-images/Layer 4.jpg");
+  background-size: cover;
+  height: 500px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.titleServices {
+  padding: 5px 50px;
+  position: absolute;
+  z-index: 100;
+  font-family: 'lato';
+  font-size: 35px;
+  color: #3c3c3c;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 7px;
+  margin-top: 20px; }
+
+.services {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid;
+  border-top: none;
+  padding: 2% 4%;
+  margin-top: 50px;
+  font-family: 'lato';
+  color: #3c3c3c; }
+  .services p {
+    margin-top: 25px;
+    color: #3c3c3c;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px; }
 
 /*# sourceMappingURL=main.css.map */
