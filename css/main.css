@@ -171,15 +171,15 @@
 .serviceContainer {
   background-image: url("/new-images/Layer 4.jpg");
   background-size: cover;
-  height: 500px;
-  margin-top: 200px;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  color: #3c3c3c;
+  margin-top: 200px; }
 
 .titleServices {
   padding: 5px 50px;
   position: absolute;
+  background-color: white;
   z-index: 100;
   font-family: 'lato';
   font-size: 35px;
@@ -195,7 +195,6 @@
   justify-content: center;
   text-align: center;
   border: 2px solid;
-  border-top: none;
   padding: 2% 4%;
   margin-top: 50px;
   font-family: 'lato';
