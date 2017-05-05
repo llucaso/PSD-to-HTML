@@ -130,7 +130,8 @@
 .logo2 {
   position: absolute;
   display: flex;
-  align-self: flex-end; }
+  align-self: flex-end;
+  bottom: 20px; }
 
 .titleAbout {
   padding: 5px 50px;
@@ -149,7 +150,7 @@
   display: flex;
   justify-content: center;
   color: #3c3c3c;
-  margin-top: 200px; }
+  margin-top: 100px; }
 
 .aboutUs {
   display: flex;
@@ -174,8 +175,8 @@
   display: flex;
   justify-content: center;
   color: #3c3c3c;
-  margin-top: 200px;
-  margin-bottom: 200px; }
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
 .titleServices {
   padding: 5px 50px;
@@ -219,6 +220,99 @@
     top: 0%;
     right: -0%; }
   .services p {
+    margin-top: 25px;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px; }
+
+.titleAbout {
+  padding: 5px 50px;
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+  font-family: 'lato';
+  font-size: 35px;
+  color: #3c3c3c;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 7px;
+  margin-top: 20px; }
+
+.aboutUsContainer {
+  display: flex;
+  justify-content: center;
+  color: #3c3c3c;
+  margin-top: 100px; }
+
+.aboutUs {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid;
+  padding: 2% 4%;
+  margin-top: 50px;
+  font-family: 'lato';
+  color: #3c3c3c; }
+  .aboutUs p {
+    margin-top: 25px;
+    color: #3c3c3c;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px; }
+
+.WhatContainer {
+  background-image: url("/new-images/Layer 4.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: #3c3c3c;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.titleWhat {
+  padding: 5px 50px;
+  position: absolute;
+  background-color: transparent;
+  z-index: 100;
+  font-family: 'lato';
+  font-size: 35px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 7px;
+  margin-top: 20px; }
+
+.whatWeDo {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid;
+  border-top: none;
+  padding: 2% 4%;
+  margin-top: 50px;
+  font-family: 'lato';
+  color: #ffffff;
+  margin-bottom: 50px; }
+  .whatWeDo:before {
+    content: "";
+    width: 250px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 0%;
+    left: 0%; }
+  .whatWeDo:after {
+    content: "";
+    width: 250px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 0%;
+    right: -0%; }
+  .whatWeDo p {
     margin-top: 25px;
     color: #ffffff;
     font-size: 15px;
