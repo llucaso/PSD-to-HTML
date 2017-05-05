@@ -174,16 +174,17 @@
   display: flex;
   justify-content: center;
   color: #3c3c3c;
-  margin-top: 200px; }
+  margin-top: 200px;
+  margin-bottom: 200px; }
 
 .titleServices {
   padding: 5px 50px;
   position: absolute;
-  background-color: white;
+  background-color: transparent;
   z-index: 100;
   font-family: 'lato';
   font-size: 35px;
-  color: #3c3c3c;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 7px;
@@ -195,13 +196,31 @@
   justify-content: center;
   text-align: center;
   border: 2px solid;
+  border-top: none;
   padding: 2% 4%;
   margin-top: 50px;
   font-family: 'lato';
-  color: #3c3c3c; }
+  color: #ffffff;
+  margin-bottom: 50px; }
+  .services:before {
+    content: "";
+    width: 250px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 0%;
+    left: 0%; }
+  .services:after {
+    content: "";
+    width: 250px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 0%;
+    right: -0%; }
   .services p {
     margin-top: 25px;
-    color: #3c3c3c;
+    color: #ffffff;
     font-size: 15px;
     letter-spacing: 2px;
     line-height: 20px; }
