@@ -125,10 +125,17 @@ $font-normal: 'lato', sans-serif
 	bottom: 20px
 
 //About Us
+.aboutUsContainer
+	display: flex
+	justify-content: center
+	color: #3c3c3c
+	margin-top: 100px
+	margin-bottom: 100px
+
 .titleAbout
 	padding: 5px 50px
 	position: absolute
-	background-color: white
+	background-color: transparent
 	z-index: 100
 	font-family: 'lato'
 	font-size: 35px
@@ -138,22 +145,35 @@ $font-normal: 'lato', sans-serif
 	letter-spacing: 7px
 	margin-top: 20px
 
-.aboutUsContainer
-	display: flex
-	justify-content: center
-	color: #3c3c3c
-	margin-top: 100px
-
 .aboutUs
 	display: flex
 	position: relative
 	justify-content: center
 	text-align: center
 	border: 2px solid
-	padding: 2% 4%
+	border-top: none
+	padding: 2% 8%
 	margin-top: 50px
 	font-family: 'lato'
 	color: #3c3c3c
+	margin-bottom: 50px
+	&:before
+		content: ""
+		width: 250px
+		height: 2px
+		background: #3c3c3c
+		position: absolute
+		top: 0%
+		left: 0%
+	&:after
+		content: ""
+		width: 250px
+		height: 2px
+		background: #3c3c3c
+		position: absolute
+		top: 0%
+		right: -0%
+
 	p
 		margin-top: 25px
 		color: #3c3c3c
@@ -191,7 +211,7 @@ $font-normal: 'lato', sans-serif
 	text-align: center
 	border: 2px solid
 	border-top: none
-	padding: 2% 4%
+	padding: 2% 8%
 	margin-top: 50px
 	font-family: 'lato'
 	color: #ffffff
@@ -222,46 +242,8 @@ $font-normal: 'lato', sans-serif
 
 //What We do
 
-.titleAbout
-	padding: 5px 50px
-	position: absolute
-	background-color: white
-	z-index: 100
-	font-family: 'lato'
-	font-size: 35px
-	color: #3c3c3c
-	text-transform: uppercase
-	font-weight: bold
-	letter-spacing: 7px
-	margin-top: 20px
-
-.aboutUsContainer
-	display: flex
-	justify-content: center
-	color: #3c3c3c
-	margin-top: 100px
-
-.aboutUs
-	display: flex
-	position: relative
-	justify-content: center
-	text-align: center
-	border: 2px solid
-	padding: 2% 4%
-	margin-top: 50px
-	font-family: 'lato'
-	color: #3c3c3c
-	p
-		margin-top: 25px
-		color: #3c3c3c
-		font-size: 15px
-		letter-spacing: 2px
-		line-height: 20px
-
 //Services
 .WhatContainer
-	background-image: url('/new-images/Layer 4.jpg')
-	background-size: cover
 	display: flex
 	justify-content: center
 	color: #3c3c3c
@@ -275,7 +257,7 @@ $font-normal: 'lato', sans-serif
 	z-index: 100
 	font-family: 'lato'
 	font-size: 35px
-	color: #ffffff
+	color: #ffff
 	text-transform: uppercase
 	font-weight: bold
 	letter-spacing: 7px
@@ -283,6 +265,7 @@ $font-normal: 'lato', sans-serif
 
 .whatWeDo
 	display: flex
+	flex-direction: column
 	position: relative
 	justify-content: center
 	text-align: center
@@ -291,13 +274,13 @@ $font-normal: 'lato', sans-serif
 	padding: 2% 4%
 	margin-top: 50px
 	font-family: 'lato'
-	color: #ffffff
+	color: #3c3c3c
 	margin-bottom: 50px
 	&:before
 		content: ""
 		width: 250px
 		height: 2px
-		background: white
+		background: #3c3c3c
 		position: absolute
 		top: 0%
 		left: 0%
@@ -305,18 +288,21 @@ $font-normal: 'lato', sans-serif
 		content: ""
 		width: 250px
 		height: 2px
-		background: white
+		background: #3c3c3c
 		position: absolute
 		top: 0%
 		right: -0%
 
 	p
 		margin-top: 25px
-		color: #ffffff
+		color: #3c3c3c
 		font-size: 15px
 		letter-spacing: 2px
 		line-height: 20px
 
+.pictogram
+	margin-bottom: 25px
+	margin-top: 50px
 
 
 	
