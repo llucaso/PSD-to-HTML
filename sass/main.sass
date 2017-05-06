@@ -3,16 +3,15 @@
 	padding: 0px
 	border-sizing: border-box
 
-$font-light: 'lato:300', sans-serif
-$font-regular: 'lato:400', sans-serif
-$font-bold: 'lato:700', sans-serif
-$font-normal: 'lato', sans-serif
-
 .row:before,
-.row:after 
+.row:after
 	content: ""
 	display: table
+
+
+.row:after
 	clear: both
+
 
 .container
 	max-width: 1200px
@@ -22,7 +21,7 @@ $font-normal: 'lato', sans-serif
 [class*="col-"] 
 	float: left
 	min-height: 1px
-	padding: 10px
+
 
 .col-1 
 	width: 8.33%
@@ -298,11 +297,38 @@ $font-normal: 'lato', sans-serif
 	margin-top: 50px
 
 
-	
-	
+.pictures
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+	display: inline-block
+	.pic
+		width:300px
+		height: 220px
+		margin: 5px
+		display: inline-block
+
+
+
+.pic1
+	background-image: url('/new-images/pic5.jpg')
+	height: 220px
+	max-width: 100%
+.pic2
+	background-image: url('/new-images/pic6.jpg')
+	height: 220px
+.pic3
+	background-image: url('/new-images/pic4.jpg')
+	height: 220px
+.pic4
+	background-image: url('/new-images/pic2.jpg')
+	height: 220px
+.pic5
+	background-image: url('/new-images/pic1.jpg')
+	height: 220px
+.pic6
+	background-image: url('/new-images/pic3.jpg')
+	height: 220px				
+
 
 	
-
-
-
-
