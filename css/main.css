@@ -306,29 +306,15 @@
   margin-bottom: 25px;
   margin-top: 50px; }
 
-.pic1 {
-  background-image: url("/new-images/pic5.jpg");
-  height: 220px;
-  max-width: 100%; }
+.gallery img {
+  width: 100%;
+  display: block;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+  border: 5px solid white; }
 
-.pic2 {
-  background-image: url("/new-images/pic6.jpg");
-  height: 220px; }
-
-.pic3 {
-  background-image: url("/new-images/pic4.jpg");
-  height: 220px; }
-
-.pic4 {
-  background-image: url("/new-images/pic2.jpg");
-  height: 220px; }
-
-.pic5 {
-  background-image: url("/new-images/pic1.jpg");
-  height: 220px; }
-
-.pic6 {
-  background-image: url("/new-images/pic3.jpg");
-  height: 220px; }
+.gallery p {
+  position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
