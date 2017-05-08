@@ -91,7 +91,7 @@
 
 .jumbotron {
   position: relative;
-  background-image: url("/new-images/Layer 8.jpg");
+  background-image: url("../new-images/Layer 8.jpg");
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -190,7 +190,7 @@
     line-height: 20px; }
 
 .serviceContainer {
-  background-image: url("/new-images/Layer 4.jpg");
+  background-image: url("../new-images/Layer 4.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
