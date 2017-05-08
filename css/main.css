@@ -394,4 +394,10 @@
     .contact button:hover {
       background-color: #7E9FED; }
 
+.footer {
+  display: flex;
+  align-content: center; }
+  .footer img {
+    color: #3c3c3c; }
+
 /*# sourceMappingURL=main.css.map */
