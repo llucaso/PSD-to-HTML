@@ -396,8 +396,12 @@
 
 .footer {
   display: flex;
-  align-content: center; }
+  justify-content: center;
+  font-family: 'lato';
+  color: #3c3c3c;
+  align-items: center; }
   .footer img {
-    color: #3c3c3c; }
+    color: #3c3c3c;
+    margin: 25px; }
 
 /*# sourceMappingURL=main.css.map */
