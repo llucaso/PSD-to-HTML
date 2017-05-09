@@ -3,6 +3,9 @@
 	padding: 0px
 	border-sizing: border-box
 
+html, body
+	overflow-x: hidden
+
 .row:before,
 .row:after
 	content: ""
@@ -399,7 +402,8 @@
 		margin: 25px
 
 //Media Queries
-@media(max-width: 830px)
+@media(max-width: 768px)
+
 	.col-s-1
 		width: 8.33%
 	.col-s-2
@@ -425,17 +429,76 @@
 	.col-s-12
 		width: 100%
 
+	.jumbotron
+		h1
+			top: 30%
+
+	.logo
+		margin-top: 1%
+
+	.logo2
+		display: none
+
+	//What we do
+	.whatWeDo
+		&:before
+			width: 40px
+		&:after
+			width: 40px
+	.titleWhat
+		p
+			text-align: center
+			font-size: 25px
+		margin-top: 29px
+
+	//Services
+	.services
+		&:before
+			width: 40px
+		&:after
+			width: 40px
+
+	.titleServices
+		p
+			text-align: center
+			font-size: 25px
+		margin-top: 29px
+
+	//AboutUs
+	.aboutUs
+		&:before
+			width: 40px
+		&:after
+			width: 40px
+
+	.titleAbout
+		p
+			text-align: center
+			font-size: 25px
+		margin-top: 29px
+
+	//Contact
+	.contact
+		&:before
+			width: 40px
+		&:after
+			width: 40px
+
+		p
+			margin-top: 45px
+
+	.titleContact
+		p
+			text-align: center
+			font-size: 25px
+		margin-top: 29px
 
 
+	.pic5, .pic6, .pic2, .pic1
+		display: none
 
 
-
-
-
-
-
-
-@media(min-width: 768px)
+@media(min-width: 768px) and (max-width: 1024px)
 
 	.col-m-1
 		width: 8.33%
@@ -462,3 +525,30 @@
 	.col-m-12
 		width: 100%
 
+	//What we do
+	.whatWeDo
+		&:before
+			width: 100px
+		&:after
+			width: 100px
+
+	//Services
+	.services
+		&:before
+			width: 100px
+		&:after
+			width: 100px
+
+	//AboutUs
+	.aboutUs
+		&:before
+			width: 100px
+		&:after
+			width: 100px
+
+	//Contact
+	.contact
+		&:before
+			width: 100px
+		&:after
+			width: 100px
