@@ -3,6 +3,9 @@
   padding: 0px;
   border-sizing: border-box; }
 
+html, body {
+  overflow-x: hidden; }
+
 .row:before,
 .row:after {
   content: "";
@@ -403,5 +406,119 @@
   .footer img {
     color: #3c3c3c;
     margin: 25px; }
+
+@media (max-width: 768px) {
+  .col-s-1 {
+    width: 8.33%; }
+  .col-s-2 {
+    width: 16.66%; }
+  .col-s-3 {
+    width: 25%; }
+  .col-s-4 {
+    width: 33.33%; }
+  .col-s-5 {
+    width: 41.66%; }
+  .col-s-6 {
+    width: 50%; }
+  .col-s-7 {
+    width: 58.33%; }
+  .col-s-8 {
+    width: 66.66%; }
+  .col-s-9 {
+    width: 75%; }
+  .col-s-10 {
+    width: 83.33%; }
+  .col-s-11 {
+    width: 91.66%; }
+  .col-s-12 {
+    width: 100%; }
+  .jumbotron h1 {
+    top: 30%; }
+  .logo {
+    margin-top: 1%; }
+  .logo2 {
+    display: none; }
+  .whatWeDo:before {
+    width: 40px; }
+  .whatWeDo:after {
+    width: 40px; }
+  .titleWhat {
+    margin-top: 29px; }
+    .titleWhat p {
+      text-align: center;
+      font-size: 25px; }
+  .services:before {
+    width: 40px; }
+  .services:after {
+    width: 40px; }
+  .titleServices {
+    margin-top: 29px; }
+    .titleServices p {
+      text-align: center;
+      font-size: 25px; }
+  .aboutUs:before {
+    width: 40px; }
+  .aboutUs:after {
+    width: 40px; }
+  .titleAbout {
+    margin-top: 29px; }
+    .titleAbout p {
+      text-align: center;
+      font-size: 25px; }
+  .contact:before {
+    width: 40px; }
+  .contact:after {
+    width: 40px; }
+  .contact p {
+    margin-top: 45px; }
+  .titleContact {
+    margin-top: 29px; }
+    .titleContact p {
+      text-align: center;
+      font-size: 25px; }
+  .pic5, .pic6, .pic2, .pic1 {
+    display: none; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .col-m-1 {
+    width: 8.33%; }
+  .col-m-2 {
+    width: 16.66%; }
+  .col-m-3 {
+    width: 25%; }
+  .col-m-4 {
+    width: 33.33%; }
+  .col-m-5 {
+    width: 41.66%; }
+  .col-m-6 {
+    width: 50%; }
+  .col-m-7 {
+    width: 58.33%; }
+  .col-m-8 {
+    width: 66.66%; }
+  .col-m-9 {
+    width: 75%; }
+  .col-m-10 {
+    width: 83.33%; }
+  .col-m-11 {
+    width: 91.66%; }
+  .col-m-12 {
+    width: 100%; }
+  .whatWeDo:before {
+    width: 100px; }
+  .whatWeDo:after {
+    width: 100px; }
+  .services:before {
+    width: 100px; }
+  .services:after {
+    width: 100px; }
+  .aboutUs:before {
+    width: 100px; }
+  .aboutUs:after {
+    width: 100px; }
+  .contact:before {
+    width: 100px; }
+  .contact:after {
+    width: 100px; } }
 
 /*# sourceMappingURL=main.css.map */
