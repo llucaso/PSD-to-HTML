@@ -149,7 +149,7 @@ html, body
 	text-align: center
 	border: 2px solid
 	border-top: none
-	padding: 2% 8%
+	padding: 2% 120px
 	margin-top: 50px
 	font-family: 'lato'
 	color: #3c3c3c
@@ -208,7 +208,7 @@ html, body
 	text-align: center
 	border: 2px solid
 	border-top: none
-	padding: 2% 8%
+	padding: 2% 129px
 	margin-top: 50px
 	font-family: 'lato'
 	color: #ffffff
@@ -238,7 +238,7 @@ html, body
 		line-height: 20px
 
 //What we do
-.WhatContainer
+.whatContainer
 	display: flex
 	justify-content: center
 	color: #3c3c3c
@@ -252,7 +252,6 @@ html, body
 	z-index: 100
 	font-family: 'lato'
 	font-size: 35px
-	color: #ffff
 	text-transform: uppercase
 	font-weight: bold
 	letter-spacing: 7px
@@ -266,7 +265,7 @@ html, body
 	text-align: center
 	border: 2px solid
 	border-top: none
-	padding: 2% 4%
+	padding: 2% 79px
 	margin-top: 50px
 	font-family: 'lato'
 	color: #3c3c3c
@@ -299,6 +298,95 @@ html, body
 	margin-bottom: 25px
 	margin-top: 50px
 
+.grow
+	transition: all .2s ease-in-out
+	&:hover
+		transform: scale(1.1)
+.container-gallery-1
+	display: flex
+	flex-direction: row
+	.pic1
+		position: relative
+		background-image: url('../new-images/pic2.jpg')
+		background-size: cover
+		background-position: center
+		height: 235px
+		flex: 1
+		transition: 1s
+		&:hover
+			flex: 2
+
+	.pic2
+		position: relative
+		background-image: url('../new-images/pic1.jpg')
+		height: 235px
+		background-size: cover
+		background-position: center
+		flex: 1
+		margin: 0 5px 5px 5px
+		transition: 1s
+		&:hover
+			flex: 2
+	.pic3
+		position: relative
+		background-image: url('../new-images/pic3.jpg')
+		height: 235px
+		background-size: cover
+		background-position: center
+		flex: 1
+		transition: 1s
+		&:hover
+			flex: 2
+	h1
+		position: absolute
+		bottom: 0
+		font-family: 'lato'
+		color: white
+		margin: 5px
+		text-transform: uppercase
+
+.container-gallery-2
+	display: flex
+	.pic4
+		position: relative
+		background-image: url('../new-images/pic4.jpg')
+		background-size: cover
+		background-position: centers
+		height: 235px
+		flex: 1
+		transition: 1s
+		&:hover
+			flex: 2
+	.pic5
+		position: relative
+		background-image: url('../new-images/pic5.jpg')
+		background-size: cover
+		background-position: center
+		height: 235px
+		flex: 1
+		margin: 0 5px 5px 5px
+		transition: 1s
+		&:hover
+			flex: 2
+	.pic6
+		position: relative
+		background-image: url('../new-images/pic6.jpg')
+		background-size: cover
+		background-position: center
+		height: 235px
+		flex: 1
+		transition: 1s
+		&:hover
+			flex: 2
+	h1
+		position: absolute
+		bottom: 0
+		font-family: 'lato'
+		color: white
+		margin: 5px
+		text-transform: uppercase
+
+
 .gallery
 	img
 		width: 100%
@@ -307,17 +395,7 @@ html, body
 		object-fit: cover
 		position: relative
 		
-.pic4, .pic3
-	position: relative
-	p
-		position: absolute
-		bottom: 10%
-		left: 10%
-		color: #ffffff
-		letter-spacing: 2px
-		font-size: 36px
-		font-family: 'lato'
-		font-weight: bolder
+
 //Contact
 .contactContainer
 	display: flex
@@ -347,7 +425,7 @@ html, body
 	text-align: center
 	border: 2px solid
 	border-top: none
-	padding: 2% 8%
+	padding: 2% 120px
 	margin-top: 50px
 	font-family: 'lato'
 	color: #3c3c3c
@@ -434,7 +512,7 @@ html, body
 			top: 30%
 
 	.logo
-		margin-top: 1%
+		margin-top: 10%
 
 	.logo2
 		display: none
@@ -494,8 +572,6 @@ html, body
 		margin-top: 29px
 
 
-	.pic5, .pic6, .pic2, .pic1
-		display: none
 
 
 @media(min-width: 768px) and (max-width: 1024px)
@@ -525,6 +601,8 @@ html, body
 	.col-m-12
 		width: 100%
 
+
+
 	//What we do
 	.whatWeDo
 		&:before
@@ -552,3 +630,18 @@ html, body
 			width: 100px
 		&:after
 			width: 100px
+
+
+@media(max-width: 768px)
+	//Jumbotron
+	.jumbotron
+		background-position: right
+
+	.container-gallery-2, .container-gallery-1
+		flex-direction: column !important
+		justify-content: center
+		height: 100%
+		width: 70%
+		margin: 0 auto
+		div
+			margin: 5px !important
